@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    Part1
+    <p>1. CLI (5%)</p>
+    <p>Q1. What is CLI?</p>
+    <p>Answer:CLI: is a means of interacting with a computer program where the user (or client) gives commands to the program in the form of consecutive lines of text (command lines).</p>
+    <p>Q2. What is the advantage/disadvantage of CLI?</p>
+    <p>Answer:
+    <p>- Advantage:Fast performance, Less memory, Low-resolution monitor, The slow processor can work, Don’t require windows, Autocomplete, Remote work, History of commands.
+    - Disadvantage: Difficult to remember, Error handing, Confusing, Redo commands,</p>
+    
+   <p> Q3. Which do you prefer, CLI or GUI (Graphical User Interface)? Why?</p>
+   <p>- I prefer CLI because it looks like a hacker :)
+    <p>It has so many advantages described above</p>
+    <p>Q4. Which command to check your current directory?</p>
+    <p>- Answer: Dir</p>
+    <p>Q5. Which command to create a new folder/directory?</p>
+    <p>-Answer: mkdir [newfolder]</p>
+    <p>Q6. Which command to create a new file?</p>
+    <p>-Answer: touch [newfile]</p>
+    <p>Q7. You are in Desktop folder, which command to make a new directory name coderschool and navigate inside it?</p>
+    <p>-Answer: mkdir [coderschool] && cd [coderschool]</p>
+    <p>Q8. Which command to delete a file?</p>
+    <p>-Answer: rm [filename] </p>
+    <p>Q9. Which command to delete a not-empty folder?</p>
+    <p>-Answer: rm -rf [foldername]</p>
+    <p>Q10. What does this command do? echo "# test" >> README.md</p>
+    <p>-Answer: Create README.MD file in current folder and add # test to this file.</p>
+    
+    <p>2. Git/Github (5%)</p>
+    <p>Q11. What does . mean in this command:</p>
+    
+    git add .
+    <p>-Answer: . Stages everything, but does not remove files that have been deleted from the disk
+    Q12. What does -m mean, is it OK without -m in this command:</p>
+    
+    <p>git commit -m "first commit"</p>
+    <p>-Answer:- m is meaningful message when commit</p>
+    <p>Q13. What does -M mean in this command:</p>
+    
+    <p>git branch -M main</p>
+    
+    <p> -Answer: -M is change branch name</p>
+    Q14. What do origin and main mean in these commands:
+    
+    <p>git remote add origin https://github.com/<acc_name>/<repo_name>.git</p>
+    git push -u origin main
+    <p>- Answer:</p>
+    <p>Here origin is an alias/alternate name for your remote repository so that you don't have to type the entire path for remote every time and henceforth you are declaring that you will use this name(origin) to refer to your remote Main is the brand name you want to submit</p>
+    <p>Q15. Which command to initialize a git repo in local?</p>
+    <p>-Answer: git-init - Create an empty Git repository or reinitialize an existing one</p>
+    
+    <p>3. HTML (10%)</p>
+    <head>
+      <meta charset="UTF-8" />
+      <meta
+        name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+      />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <title>Document</title>
+      <link rel="stylesheet" src="style.css" />
+    </head>
+    <!-- This HTML code for Q16, 17 and 18. -->
+    
+   <p> Q16. Inside head tag, what does first meta tag mean?</p>
+    
+<p>- Answer. : shows that the character encoding of the main page is UTF8.
+    Q17. Inside head tag, what does second meta tag mean?.
+    The <meta> viewport tag sets up the web page to display according to the size of each different device.
+    The width=device-width property sets the width of the web page according to the screen width of the device.
+    The initial-scale=1.0 attribute sets the initial zoom level when the page is first loaded by the browser, the user will not be able to zoom when this property has a value of 1.</p>
+    
+<p> Q18. Inside head tag, what is wrong with link tag?</p>
+    - Answer : href ="style.css" not src="style.css"
+    
+<p>  Q19. List some tags that do not have closing tag?</p>
+    - Answer: img, input, br, hr, meta, etc.
+    
+<p>  Q20. Give some contexts of using span tag?</p>
+<p>   -Answer: 
+    A <span> element which is used to color a part of a text
+    Want the text to be on the same line</p>
+    
+<p>  Q21. Give 1 example of creating a hyperlink by a tag in html? (answer with HTML code)
+    <a href="https://coderschool.learnworlds.com/courses">coderschool!</a> </p>
+    
+    
+<p>  Q22. Give 1 example of inserting a picture in html? (answer with HTML code)
+    <img src="image.png" alt="Description for image" width="250" height="250">
+    Q22. Give 1 example of creating an email link in html? (answer with HTML code)
+    <a href="mailto: someone@example.com">here</a> </p>
+    
+<p>  4. CSS (10%)</p>
+<p>  Q26. Explain box model elements.</p>
+<p>   - Answer: The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.</p>
+    
+<p>    Q27. The value in inch of 1 px?</p>
+    - 1px = 0.0033333333333333335inch
+    
+<p>  Q28. What is vw/vh?</p>
+    -Answer: measure the percentage of the viewport height and width respectively.
+    
+<p>   Q29. List all values of position property? Which one is default value?</p>
+    - Answer: (static, relative, absolute, fixed, or sticky). static is default value.
+    
+<p>   Q30. List all values of flex-direction property? Which one is default value?</p>
+<p>    - Answer: flex-direction: row|row-reverse|column|column-reverse|initial|inherit;
+    and row is default value.<p>
+    
+    <p>   Q31. List all values of justify-content property? Which one is default value?</p>
+    - Answer: justify-content: flex-start|flex-end|center|space-between|space-around|space-evenly|initial|inherit;
+    and flex-start is default value.
+    
+<p>   Q32. List all values of align-items property? Which one is default value?</p>p>
+    - Answer: align-items: stretch|center|flex-start|flex-end|baseline|initial|inherit;
+    and stretch is default data.
+    
+<p>   Q33. List all values of align-content property? Which one is default value? </p>
+    - Answer: align-content: stretch|center|flex-start|flex-end|space-between|space-around|initial|inherit;
+    and stretch is default data.
+    
+    
+    
+<p>   Q34. List all values of flex-wrap property? Which one is default value?
+    flex-wrap: nowrap|wrap|wrap-reverse|initial|inherit;
+    and nowrap is default value.</p>
+    
+    
+<!-- Q21. Give 1 example of creating a hyperlink by a tag in html? (answer with HTML code) -->
+<!-- <a href="https://coderschool.learnworlds.com/courses">coderschool!</a> -->
+
+
+<!-- Q22. Give 1 example of inserting a picture in html? (answer with HTML code)
+<img src="image.png" alt="Description for image" width="250" height="250">
+Q22. Give 1 example of creating an email link in html? (answer with HTML code)
+<a href="mailto: someone@example.com">here</a> -->
+<!-- Q23 -->
+    <h4>First name:</h4>
+    <h5 style="border: 1px solid black; width: 100px;">John</h5>
+    <h4>Last name:</h4>
+    <h5 style="border: 1px solid black; width: 100px;">Doe</h5>
+    <input type="submit" value="Submit">
+    
+<!-- Q24 -->
+<form>
+    <input type="checkbox">
+    <label for="vehicle1"> I have a bike</label><br>
+    <input type="checkbox">
+    <label for="vehicle2"> I have a car</label><br>
+    <input type="checkbox">
+    <label for="vehicle3"> I have a boat</label><br><br>
+  </form>
+
+  <!-- Q25 -->
+
+  <iframe width="971" height="546" src="https://www.youtube.com/embed/aeSTBTgvlsM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+  <!-- Q35 -->
+
+  <div class="flex-container">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>  
+  </div>
+</body>
+</html>
